@@ -114,7 +114,7 @@ with open("version.txt", "r") as version_file:
 parser.add_argument("-u", "--url", help="Url of the target website.")
 parser.add_argument("-vF", "--false-verify", help="Bypasses certificate validation completely.", action="store_false", dest="allow_verify")
 parser.add_argument("-f", "--find", help="Search in url.", dest="find_key", action="store", nargs="?", const=False, metavar="str")
-parser.add_argument("--output-file", help="Write output into a file.", action="store", dest="output_file", nargs="?", metavar="file")
+parser.add_argument("-o", "--output-file", help="Write output into a file.", action="store", dest="output_file", nargs="?", metavar="file")
 parser.add_argument("-V", "--version", help="Print version.", action="version", version=version)
 args = parser.parse_args()
 
