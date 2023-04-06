@@ -12,6 +12,7 @@ t = "\u251C"
 info = f"{bd}[{blue}INFO{bd}]{n}"
 info_err = f"{bd}[{red}INFO{bd}]{n}"
 warning = f"{bd}[{yl}WARNING{bd}]{n}"
+link_ = f"{bd}[{blue}LINK{bd}]{n}"
 
 import os
 import argparse
@@ -50,12 +51,12 @@ def get_links(website_url, verify=True, write_result=False, output_file=None, fi
           new_list.append(link)
       fetched_urls = new_list
       for link in fetched_urls:
-        print(f"{info} {link}")
+        print(f"{link_} {link}")
         time.sleep(0.1)
 
     else:
       for link in soup.find_all("a"):
-        print(f"{info} {link.get('href')}")
+        print(f"{link_} {link.get('href')}")
         fetched_urls.append(link.get('href'))
         time.sleep(0.1)
 
