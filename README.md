@@ -39,4 +39,4 @@ usniff.py [-h] [-u URL] [-vF] [-f [str]]
 | `-V` `--version`  |      Print version.
 
 &nbsp; 
-<sub>Use the repository's content only for legal and ethical purposes.</sub>
+<sub> Use the repository's content only for legal and ethical purposes.</sub>
