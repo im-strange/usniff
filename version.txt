@@ -1,0 +1,2 @@
+USniff version 1.0
+Author : Sam Genoguin (im-strange)
