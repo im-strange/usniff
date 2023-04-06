@@ -26,3 +26,6 @@ usniff.py [-h] [-u URL] [-vF] [-f [str]]
   --output-file [file]  Write output into a file.
   -V, --version         Print version.
 ```
+&nbsp; 
+
+Use the repository's content only for legal and ethical purposes. [^1]
