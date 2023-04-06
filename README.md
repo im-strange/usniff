@@ -3,12 +3,24 @@ A powerful python tool for extracting url from a website
 &nbsp; 
 
 ## Installation
-cloning the repo
+1. Clone the repo.
 ```
 git clone https://github.com/im-strange/usniff
 ```
-&nbsp; 
+2. Change directory.
+```
+cd usniff
+```
+3. Change `setup.sh` mode to executable.
+```
+chmod +x setup.sh
+```
+4. Reload `.bashrc` file.
+```
+source ~/.bashrc
+```
 
+&nbsp; 
 ## Usage
 ```python
 usniff.py [-h] [-u URL] [-vF] [-f [str]]
@@ -27,5 +39,4 @@ usniff.py [-h] [-u URL] [-vF] [-f [str]]
 | `-V` `--version`  |      Print version.
 
 &nbsp; 
-
 <sub>Use the repository's content only for legal and ethical purposes.</sub>
