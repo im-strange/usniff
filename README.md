@@ -17,7 +17,7 @@ usniff.py [-h] [-u URL] [-vF] [-f [str]]
 &nbsp; 
 
 ## Options
-```bash
+```py
   -h, --help            show this help message and exit
   -u URL, --url URL     Url of the target website.
   -vF, --false-verify   Bypasses certificate validation completely.
