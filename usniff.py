@@ -108,7 +108,8 @@ parser = argparse.ArgumentParser(
         usage = None
 	)
 
-version = "USniff 1.0"
+with open("version.txt", "r") as version_file:
+  version = version_file.read()
 
 parser.add_argument("-u", "--url", help="Url of the target website.")
 parser.add_argument("-vF", "--false-verify", help="Bypasses certificate validation completely.", action="store_false", dest="allow_verify")
