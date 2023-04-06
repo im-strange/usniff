@@ -28,4 +28,4 @@ usniff.py [-h] [-u URL] [-vF] [-f [str]]
 ```
 &nbsp; 
 
-Use the repository's content only for legal and ethical purposes[^1].
+<sub>Use the repository's content only for legal and ethical purposes.</sub>
