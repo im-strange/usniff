@@ -10,7 +10,7 @@ git clone https://github.com/im-strange/usniff
 &nbsp; 
 
 ## Usage
-```
+```python
 usniff.py [-h] [-u URL] [-vF] [-f [str]]
           [--output-file [file]] [-V]
 ```
