@@ -11,9 +11,9 @@ git clone https://github.com/im-strange/usniff
 ```
 cd usniff
 ```
-3. Change `setup.sh` mode to executable.
+3. Change `setup.sh` mode to executable and run.
 ```
-chmod +x setup.sh
+chmod +x setup.sh && ./setup.sh
 ```
 4. Reload `.bashrc` file.
 ```
@@ -39,4 +39,4 @@ usniff.py [-h] [-u URL] [-vF] [-f [str]]
 | `-V` `--version`  |      Print version.
 
 &nbsp; 
-<sub> Use the repository's content only for legal and ethical purposes.</sub>
+<sub>Use the repository's content only for legal and ethical purposes.</sub>
