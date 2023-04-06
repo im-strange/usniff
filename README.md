@@ -19,12 +19,12 @@ usniff.py [-h] [-u URL] [-vF] [-f [str]]
 ## Options
 | commands | description |
 | --- | --- |
-| `-h`, `--help` |  show this help message and exit. |
-| `-u`, `--url`  |  Url of the target website.
-| `-vF`, `--false-verify` |  Bypasses certificate validation completely.
-| `-f`, `--find` |  Search in url.
-| `--output-file` |  Write output into a file.
-| `-V`, `--version`  |      Print version.
+| `-h``--help` |  show this help message and exit. |
+| `-u``--url`  |  Url of the target website.
+| `-vF``--false-verify` |  Bypasses certificate validation completely.
+| `-f``--find` |  Search in url.
+| `-o``--output-file` |  Write output into a file.
+| `-V``--version`  |      Print version.
 
 &nbsp; 
 
