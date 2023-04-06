@@ -14,3 +14,15 @@ git clone https://github.com/im-strange/usniff
 usniff.py [-h] [-u URL] [-vF] [-f [str]]
           [--output-file [file]] [-V]
 ```
+&nbsp; 
+
+## Options
+```
+-h, --help            show this help message and exit
+  -u URL, --url URL     Url of the target website.
+  -vF, --false-verify   Bypasses certificate validation completely.
+  -f [str], --find [str]
+                        Search in url.
+  --output-file [file]  Write output into a file.
+  -V, --version         Print version.
+```
