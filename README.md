@@ -1,6 +1,16 @@
-# USniff (URL Sniffer)
-A powerful python tool for extracting url from a website
-&nbsp; 
+<h1 align="center"> USniff </h1>
+
+<div align="center">
+
+  <p> URL Sniffer </p>
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/USniff-1.0.0-red?style=for-the-badge">
+
+</div>
+
+## Description
+Usniff is a powerful python tool for extracting 
+URLs from a website.
 
 ## Installation
 1. Clone the repo.
@@ -33,7 +43,7 @@ usniff.py [-h] [-u URL] [-vF] [-f [str]]
 | --- | --- |
 | `-h` `--help` |  show this help message and exit. |
 | `-u` `--url`  |  Url of the target website.
-| `-vF` `--false-verify` |  Bypasses certificate validation completely.
+| `-vF` `--false-verify` |  Bypasses certificate validation completelyh1
 | `-f` `--find` |  Search in url.
 | `-o` `--output-file` |  Write output into a file.
 | `-V` `--version`  |      Print version.
