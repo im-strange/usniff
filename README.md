@@ -5,7 +5,7 @@
   <p> URL Sniffer </p>
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/USniff-1.0.0-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/-command line interface-grey?style=for-the-badge&logo=code">
+  <img src="https://img.shields.io/badge/-command line tool -grey?style=for-the-badge&logo=python&logoColor=white">
   
 </div>
 
